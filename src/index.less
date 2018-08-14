@@ -1,0 +1,58 @@
+html,body,#root{
+    width:100%;
+    height:100%;
+}
+#app{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    .app{
+        height:100%;
+        background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1511241266161&di=20b757607117372d337748a6e9c01054&imgtype=0&src=http%3A%2F%2Fuploads.xuexila.com%2Fallimg%2F1706%2F28-1F623151521.jpg") no-repeat;
+        width: 100%;
+        padding-top: 300px;
+        .box{
+            margin:0 auto;
+            width:200px;
+            .ant-input-affix-wrapper{
+                margin-bottom: 20px;
+                .ant-input{
+                    height: 40px;
+                    line-height:40px;
+                }
+            }
+            .ant-btn{
+                width:100%;
+                height: 40px;
+                line-height:40px;
+            }
+            .ant-alert-banner{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .indexContent{
+        height:100%;
+        width:100%;
+        .showLeftCon{
+            width: 100%;
+            height:calc(~'100% - 80px');
+            background-color: #f0f2fa;
+        }
+        .content{
+            padding:30px;
+            width:calc(~'100% - 200px');
+        }
+    }
+    .loading{
+        position: absolute;
+        top:10px;
+        right:20px;
+        z-index:888;
+        .ant-spin-spinning{
+            position: absolute;
+            top:84px;
+            right:4px;
+        }
+    }
+}
